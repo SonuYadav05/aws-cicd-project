@@ -1,0 +1,24 @@
+{
+  "name": "github-actions-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node --test"
+  },
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SonuYadav05/aws-cicd-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SonuYadav05/aws-cicd-project/issues"
+  },
+  "homepage": "https://github.com/SonuYadav05/aws-cicd-project#readme"
+}
