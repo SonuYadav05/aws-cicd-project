@@ -44,3 +44,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: DAST Security Scan
+        uses: zaproxy/action-baseline@v0.14.0
+        with:
+          target: https://sonuyadav05.github.io/aws-cicd-project/
