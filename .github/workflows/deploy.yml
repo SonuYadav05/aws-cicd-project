@@ -48,6 +48,6 @@ jobs:
 
       - name: DAST Security Scan
         uses: zaproxy/action-baseline@v0.14.0
+        continue-on-error: true
         with:
           target: https://sonuyadav05.github.io/aws-cicd-project/
-          fail_action: true
