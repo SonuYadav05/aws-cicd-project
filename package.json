@@ -2,7 +2,9 @@
   "name": "github-actions-demo",
   "version": "1.0.0",
   "scripts": {
-    "test": "node --test"
+  "test": "node --test",
+  "lint": "eslint ."
+
   },
   "description": "",
   "main": "app.js",
@@ -20,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/SonuYadav05/aws-cicd-project/issues"
   },
-  "homepage": "https://github.com/SonuYadav05/aws-cicd-project#readme"
+  "homepage": "https://github.com/SonuYadav05/aws-cicd-project#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.11.0",
+    "globals": "^17.12.0"
+  }
 }
