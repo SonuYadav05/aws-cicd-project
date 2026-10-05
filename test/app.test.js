@@ -1,3 +1,5 @@
+const unusedVariable = 123;
+
 const test = require('node:test');
 const assert = require('node:assert');
 const { add } = require('../app');
