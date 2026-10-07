@@ -1,0 +1,8 @@
+sonar.projectKey=github-actions-demo
+sonar.projectName=github-actions-demo
+
+sonar.sources=.
+sonar.exclusions=node_modules/**,.git/**
+
+sonar.tests=test
+sonar.test.inclusions=test/**/*.js
