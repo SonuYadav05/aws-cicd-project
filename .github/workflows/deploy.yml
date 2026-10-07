@@ -44,6 +44,8 @@ jobs:
       - name: Run Unit Tests
         run: npm test
 
+       # sonarQube testing
+
       - name: Test SonarQube Connection
         run: |
           curl -I "${{ secrets.SONAR_HOST_URL }}"
