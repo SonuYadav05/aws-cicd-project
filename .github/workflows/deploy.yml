@@ -51,8 +51,8 @@ jobs:
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v7
         env:
-          SONAR_TOKEN: ${{ sqp_f31338222584a0d41a80ca7857e0025e28089d16 }}
-          SONAR_HOST_URL: ${{ http://3.110.118.199:9000 }}
+          SONAR_TOKEN: ${{ secrets.sqp_f31338222584a0d41a80ca7857e0025e28089d16 }}
+          SONAR_HOST_URL: ${{ secrets.http://3.110.118.199:9000 }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
